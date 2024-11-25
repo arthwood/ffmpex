@@ -2,7 +2,7 @@ defmodule FFmpex.Mixfile do
   use Mix.Project
 
   @source_url "https://github.com/talklittle/ffmpex"
-  @version "0.11.0"
+  @version "0.11.1"
 
   def project do
     [
@@ -27,7 +27,7 @@ defmodule FFmpex.Mixfile do
     [
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:jason, "~> 1.2"},
-      {:rambo, "~> 0.3.0"}
+      {:rambo, github: "jayjun/rambo", ref: "ad6307b593afb5faec7c4ee03551d46bf604eb67"}
     ]
   end
 
